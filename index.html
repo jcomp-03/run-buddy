@@ -38,7 +38,45 @@
         
         <!-- hero/jumbotron -->
         <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of out trainers will schedule a consult</p>
 
+                <!-- Adding the form element -->
+                <form>
+                    <!-- adding the input element for name -->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Type your name here" name="name" id="name" />
+
+                    <!-- adding the input element for email address -->
+                    <label for="email-address">Enter complete email address:</label>
+                    <input type="email" placeholder="Type email address here" name="email-address" id="email-address" />
+
+                    <!-- adding the input element for telephone number -->
+                    <label for="phone-number">Enter telephone number</label>
+                    <input type="tel" placeholder="Type your phone number here" name="phone-number" id="phone-number" />
+
+                    <!-- adding the radio-type input element -->
+                    <p>
+                        Have you worked out with a trainer before?
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-no">No</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    </p>
+
+                    <!-- adding the checkbox-type input element -->
+                    <p>
+                        <label for="of-age">I acknowledge that I am at least 18 years of age.</label>
+                        <input type="checkbox" name="of-age" id="of-age"/>
+                    </p>
+
+                    <!-- adding the submit-type iput element -->
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
         </section>
         
         <!-- "what we do section" -->
@@ -64,8 +102,13 @@
         <!-- footer -->
         <footer>
             <h2> ❤️ Made with love by Run Buddy</h2>
-        </footer>
-        
+
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc. <!-- &copy; is an HTML entity. An HTML entity is used to display reserved characters and invisible characters, which might -->
+            </div>                          <!-- otherwise be interpreted as HTML code. For instance the ampersand & is denoted by its character entity &amp; which might -->
+        </footer>                           <!-- otherwise be interpreted as the beginning of an entity or character reference. There is also &lt; &gt; and &quot; which -->
+                                            <!-- which denote < > and " respectively -->
     </body>
 
 
