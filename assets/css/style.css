@@ -7,13 +7,15 @@
     box-sizing: border-box;
 }
 
-
+/* BODY STYLING BEGIN */
 body{
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* BODY STYLING END */
 
-/* apply styles to <header> */
+
+/* HEADER STYLING BEGIN */
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,7 +49,10 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* HEADER STYLING END */
 
+
+/* FOOTER STYLING BEGIN */
 footer {
     background: #fce138;
     width: 100%;
@@ -70,12 +75,17 @@ footer div{
 footer a {
     color: #024e76;
 }
+/* FOOTER STYLING END */
 
+
+/* SECTION STYLING BEGIN */
 section {
     padding: 60px;
 }
+/* SECTION STYLING END */
 
-/* Hero style start */
+
+/* SECTION .hero STYLING BEGIN */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -84,7 +94,6 @@ section {
     position: relative;
 }
 
-/* Hero form style start */
 .hero-form {
     color: #024e76;
     background-color: #fce138;
@@ -125,23 +134,12 @@ section {
     padding: 10px 20px;
     font-size: 16px;
   }
+/* SECTION .hero STYLING END */
 
-/* Hero form style end */
-/* Hero style end */
 
+/* SECTION .intro STYLING BEGIN */
 .intro {
     text-align: center;
-}
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    /* border: solid 3px #fce138; */
-    display: inline-block;
 }
 
 .intro p {
@@ -150,5 +148,54 @@ section {
     width: 80%;
     font-size: 20px;
 }
+/* SECTION .intro STYLING END */
 
+
+/* SECTION .steps STYLING BEGIN */
+.steps {
+    text-align: center;
+    background:#fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    border: solid 1px black;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+    border: solid 1px black;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+/* SECTION .steps STYLING END */
+
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
 
