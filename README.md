@@ -1,4 +1,4 @@
-# run-buddy
+# Run Buddy Inc.
 Module 1.1.7
 # Run Buddy
 
